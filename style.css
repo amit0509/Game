@@ -1,0 +1,128 @@
+
+        body {
+            font-size: 20px;
+            background-color: rgb(61, 153, 228);
+          
+        }
+
+        span.one {
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+
+
+        }
+        .btn{
+            text-decoration: none;
+            border: 2px soild white;
+            border-radius: 18px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            cursor:pointer;
+            background-color: rgb(48, 40, 199);
+            font-size: 25px;
+            border-spacing: 6px;
+            margin-left: 700px;
+            display: inline-block;
+
+        }
+        .btn:hover{
+            transform: scale(1.1);
+        }
+
+        h2 {
+            font-weight: bold;
+            margin-left: 50px;
+            color: rgb(235, 235, 241);
+            margin-top: 50px;
+        }
+
+        p {
+            font-family: "Ubuntu script=latin rev=2";
+           
+            font-style: normal;
+          
+            font-size: 20px;
+            color: white;
+        }
+
+        img {
+            margin-left: 1300px;
+            margin-right: 200px;
+            width: 140px;
+            height: 140px;
+
+
+        }
+
+        ul {
+            color: white;
+        }
+
+        input {
+            font-weight: bold;
+            border-radius: 15px;
+            border: 2px solid rgb(48, 40, 199);
+            width: 100px;
+            height: 30px;
+
+            margin-left: 300px;
+            margin-top: 50px;
+        }
+
+       
+        
+
+        .navbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            z-index: 900;
+            -webkit-box-align: end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+            text-decoration: none;
+
+
+        }
+
+        .navbar a {
+            color: white;
+
+            padding: 2rem;
+            font-size: 2rem;
+            cursor: pointer;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            text-align: center;
+            -webkit-transition: .1s linear;
+            transition: .1s linear;
+            background-color: rgb(48, 40, 199);
+
+        }
+
+        .navbar a i {
+            padding-right: 4rem;
+            /*  background-color: rgb(48, 40, 199); */
+
+        }
+
+        .navbar a:hover {
+            padding-bottom: 4rem;
+            background-color: rgb(61, 153, 228);
+        }
+
+        .navbar a:hover i {
+            color: white;
+        }
+
+       p li {
+            font-size: 30px;
+        }
+    

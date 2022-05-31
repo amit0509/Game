@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instructions</title>
+    <style>
+        body {
+            color: white;
+            background-color: rgb(61, 153, 228);
+        }
+
+        h3 {
+            font-weight: bold;
+            font-size: 50px;
+
+        }
+
+        ol,
+        p {
+            font-size: 25px;
+        }
+
+        .navbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            z-index: 900;
+            -webkit-box-align: end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+
+
+
+        }
+
+        .navbar a {
+            color: white;
+
+            padding: 2rem;
+            font-size: 2rem;
+            cursor: pointer;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            text-align: center;
+            -webkit-transition: .1s linear;
+            transition: .1s linear;
+            background-color: rgb(48, 40, 199);
+
+        }
+
+        .navbar a i {
+            padding-right: 4rem;
+            /*  background-color: rgb(48, 40, 199); */
+
+        }
+
+        .navbar a:hover {
+            padding-bottom: 4rem;
+            background-color: rgb(61, 153, 228);
+        }
+
+        .navbar a:hover i {
+            color: white;
+        }
+
+        button {
+            text-decoration: none;
+            border: 2px soild white;
+            border-radius: 18px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            cursor: pointer;
+            background-color: rgb(48, 40, 199);
+            font-size: 25px;
+            border-spacing: 6px;
+            margin-left: 200px;
+            display: inline-block;
+margin-top: 230px;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+
+        .container ul li {
+
+            display: inline-block;
+        }
+
+        .btn1 {
+            margin-top: 260px;
+            margin-left: 20px;
+        }
+
+        .btn2 {
+            margin-top: 260px;
+            margin-left: 1200px;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <h3 align=center><span>How To Play?
+        </span></h3>
+    <hr color="white" height=5px width="400px">
+
+
+    <nav class=navbar>
+        <a href="index.html"><i class="home"></i><span>Home</span> </a>
+        <a href="page1.html"><i class="instruction"></i><span>Instructions</span></a>
+        <a href="page2.html"><i class="Start Game"></i><span>Start Game</span></a>
+        <a href="page4.html"><i class="Contact"></i><span>Contact Us</span></a>
+
+    </nav>
+    <ol type="1">
+        <li>
+            Make Pairs of similar Blocks By Flipping Them.
+        </li>
+        <li>
+            To Flip a Block You can Click On it.
+        </li>
+        <li>
+            If two Blocks You Clicked Are Not Similar,They will be flipped back.
+        </li>
+    </ol>
+    <div class="container">
+        <ul>
+
+            <li>
+                <form action="index.html">
+
+                    <button class="btn1">Prev</button>
+                </form>
+            <li>
+                <form action="page2.html">
+
+                    <button class="btn2">Next</button>
+                </form>
+
+        </ul>
+    </div>
+
+
+</body>
+
+</html>

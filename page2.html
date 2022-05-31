@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body {
+            font-size: 20px;
+            background-color: rgb(61, 153, 228);
+          
+        }
+h2{
+    margin-top: 50px;
+    padding: 0px;
+    color: white;
+}
+        button {
+            text-decoration: none;
+            border: 2px soild white;
+            border-radius: 18px;
+            height: 40px;
+            width: 100px;
+            color: white;
+            cursor: pointer;
+            background-color: rgb(48, 40, 199);
+            font-size: 25px;
+            border-spacing: 6px;
+            margin-left: 200px;
+            display: inline-block;
+            
+        }
+        button:hover{
+            transform: scale(1.1);
+        }
+        .container ul li{
+            display: inline-block;
+            letter-spacing: normal;
+            
+        }
+        .navbar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            z-index: 900;
+            -webkit-box-align: end;
+            -ms-flex-align: end;
+            align-items: flex-end;
+            text-decoration: none;
+
+
+        }
+
+        .navbar a {
+            color: white;
+
+            padding: 2rem;
+            font-size: 2rem;
+            cursor: pointer;
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            text-align: center;
+            -webkit-transition: .1s linear;
+            transition: .1s linear;
+            background-color: rgb(48, 40, 199);
+
+        }
+
+        .navbar a i {
+            padding-right: 4rem;
+            /*  background-color: rgb(48, 40, 199); */
+
+        }
+
+        .navbar a:hover {
+            padding-bottom: 4rem;
+            background-color: rgb(61, 153, 228);
+        }
+
+        .navbar a:hover i {
+            color: white;
+        }
+        .btn1{
+            margin-top: 280px;
+            margin-left: 20px;
+        }
+        .btn2{
+            margin-top: 280px;
+            margin-left: 1200px;
+        }
+        button.p34{
+            margin-left: 300px;
+        }
+        button.p44{
+            margin-left: 270px;
+        }
+        button.p54{
+            margin-left: 270px;
+        }
+        span.heading{
+            font-size: 40px;
+            font-weight: bold;
+            color: rgb(255, 255, 255);
+
+
+        }
+        </style>
+</head>
+<body>
+    <nav class=navbar>
+        <a href="index.html"><i class="home"></i><span>Home</span> </a>
+        <a href="page1.html"><i class="instruction"></i><span>Instructions</span></a>
+        <a href="page2.html"><i class="Start Game"></i><span>Start Game</span></a>
+        <a href="page4.html"><i class="Contact"></i><span>Contact Us</span></a>
+       
+    </nav>
+    <p align=center> <h2 align=center><span class="heading">Select the Game Mode</span></h2></p>
+    <br>
+    <hr color="white" height=5px width="400px">
+    <br>
+    <div class="container">
+        <ul>
+
+          <li>  <form action="project3_4.html">
+                <button class="p34">3*4</button>
+            </form>
+                      <li>  <form action="project4_4.html">
+                
+                <button class="p44">4*4</button>
+            </form>
+          
+            
+           <li> <form action="project5_4.html">
+                <button class="p54">5*4</button>
+            </form>
+        </ul>
+            
+    </div>
+    <div class="container">
+        <ul>
+     
+           <li> <form action="page1.html">
+                
+                <button class="btn1">Prev</button> 
+             </form>
+           <li>  <form action="page4.html">
+                 
+                 <button class="btn2">Next</button> 
+             </form>
+             
+         </ul>
+         </div>
+</body>
+</html>
